@@ -22,6 +22,9 @@ public enum enumMake
 
     public static void main (String[]args)
     {
-
+        for (enumMake employees: enumMake.values())
+        {
+            System.out.printf("%s\t%s\t%s\n", employees, employees.getJob(), employees.getAge());
+        }
     }
 }
