@@ -1,6 +1,7 @@
 public enum enumMake
 {
-    adnan("student", 22);
+    adnan("student", 22),
+    salehin("programmer", 24);
 
     private final String job;
     private final int age;
